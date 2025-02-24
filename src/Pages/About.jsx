@@ -191,24 +191,25 @@ const AboutPage = () => {
 
       <div className="w-full mx-auto pt-8 sm:pt-12 relative">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <div className="space-y-6 text-center lg:text-left">
-            <h2
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]">
-                Hello, I'm
-              </span>
-              <span
-                className="block mt-2 text-gray-200"
+          <div className="space-y-6">
+            <div className="text-center lg:text-left">
+              <h2
+                className="text-3xl sm:text-4xl lg:text-5xl font-bold "
                 data-aos="fade-right"
-                data-aos-duration="1300"
+                data-aos-duration="1000"
               >
-                Joan González Albert
-              </span>
-            </h2>
-
+                <span className=" text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]">
+                  Hello, I'm
+                </span>
+                <span
+                  className="block mt-2 text-gray-200 "
+                  data-aos="fade-right"
+                  data-aos-duration="1300"
+                >
+                  Joan González Albert
+                </span>
+              </h2>
+            </div>
             <p
               className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed  pb-4 sm:pb-0"
               data-aos="fade-right"
