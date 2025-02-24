@@ -81,7 +81,9 @@ function TabPanel({ children, value, index, ...other }) {
     >
       {value === index && (
         <Box sx={{ p: { xs: 1, sm: 3 } }}>
-          <Typography>{children}</Typography>
+          {/* <Typography> */}
+          {children}
+          {/* </Typography> */}
         </Box>
       )}
     </div>
@@ -109,11 +111,16 @@ const techStacks = [
   { icon: "reactjs.svg", language: "ReactJS" },
   { icon: "vite.svg", language: "Vite" },
   { icon: "nodejs.svg", language: "Node JS" },
-  { icon: "bootstrap.svg", language: "Bootstrap" },
-  { icon: "firebase.svg", language: "Firebase" },
+  { icon: "pgsql.svg", language: "PostgreSQL" },
   { icon: "MUI.svg", language: "Material UI" },
-  { icon: "vercel.svg", language: "Vercel" },
-  { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "docker.svg", language: "Docker" },
+  { icon: "jenkins.svg", language: "Jenkins" },
+  { icon: "django.svg", language: "Django" },
+  { icon: "nextjs.svg", language: "NextJs" },
+  { icon: "python.svg", language: "Python" },
+  { icon: "csharp.svg", language: "C#" },
+  { icon: "git.svg", language: "Git" }
+
 ];
 
 export default function FullWidthTabs() {

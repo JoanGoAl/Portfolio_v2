@@ -26,7 +26,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <AnimatedBackground />
           <Home />
           <About />
-          {/* <Portofolio /> */}
+          <Portofolio />
 
           {/* <ContactPage /> */}
           <footer>
