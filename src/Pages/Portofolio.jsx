@@ -316,6 +316,9 @@ export default function FullWidthTabs() {
                 />
               </div>
             )}
+            <div className="text-white text-3xl text-center mt-[25px]">
+              Adding in process...
+            </div>
           </TabPanel>
 
           <TabPanel value={value} index={1} dir={theme.direction}>

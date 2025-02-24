@@ -196,7 +196,7 @@ const Home = () => {
               onMouseLeave={() => setIsHovering(false)}
               data-aos="fade-left"
               data-aos-delay="600">
-              <div className="hidden lg:block relative w-full opacity-90">
+              <div className="relative w-full opacity-90">
                 <div className={`absolute inset-0 bg-gradient-to-r from-[var(--primary-color)]/10 to-[var(--secondary-color)]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
                   }`}>
                 </div>
@@ -207,7 +207,7 @@ const Home = () => {
                     ? "scale-[180%] sm:scale-[160%] md:scale-[150%] lg:scale-[145%] rotate-2"
                     : "scale-[175%] sm:scale-[155%] md:scale-[145%] lg:scale-[140%]"
                     }`}>
-                    <img src="/avatar.webp" className="h-[150px] sm:h-[300px] " loading="lazy" alt="Avatar" />
+                    <img src="/rubik-cube.png" className="h-[150px] sm:h-[300px] " loading="lazy" alt="Avatar" />
                   </div>
                 </div>
 
