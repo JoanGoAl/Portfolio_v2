@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 :root {
-	--primary-color: #4c8be8;
-	--secondary-color: #66c9b6;
-	/* 66c9b6 --> this color is "verde-azulado" */
-	/* 6ad97e --> this color is "verde menta" */
+	--primary-color: #6366f1;
+	--secondary-color: #a855f7;
+	/* secondary 66c9b6 --> this color is "verde-azulado" */
+	/* Primary 4c8be8 --> this color is "azul claro" */
 }
 
 * {
