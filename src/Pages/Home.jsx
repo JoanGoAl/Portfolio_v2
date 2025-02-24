@@ -196,7 +196,7 @@ const Home = () => {
               onMouseLeave={() => setIsHovering(false)}
               data-aos="fade-left"
               data-aos-delay="600">
-              <div className="relative w-full opacity-90">
+              <div className="hidden lg:block relative w-full opacity-90">
                 <div className={`absolute inset-0 bg-gradient-to-r from-[var(--primary-color)]/10 to-[var(--secondary-color)]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
                   }`}>
                 </div>
