@@ -26,8 +26,9 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <AnimatedBackground />
           <Home />
           <About />
-          {/* <Portofolio />
-          <ContactPage /> */}
+          {/* <Portofolio /> */}
+
+          {/* <ContactPage /> */}
           <footer>
             <center>
               <hr className="my-3 border-gray-400 opacity-15 sm:mx-auto lg:my-6 text-center" />
