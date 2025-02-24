@@ -99,7 +99,6 @@ const Home = () => {
       AOS.init({
         once: true,
         offset: 10,
-
       });
     };
 
