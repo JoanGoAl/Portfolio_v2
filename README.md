@@ -1,19 +1,19 @@
-# Portfolio V5  
+# My Portfolio
+
 Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+I’m Joan González Albert. 
 
 **Tech Stack used:**  
 - ReactJS  
 - Tailwind CSS  
 - AOS  
-- Firebase  
 - Framer Motion  
 - Lucide  
 - Material UI  
 - SweetAlert2  
 
 **Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+[https://www.gonzalezjoan.com/](https://www.gonzalezjoan.com/)  
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
 
@@ -59,55 +59,19 @@ Ensure that you have already installed:
 
    Access the application through the link displayed in your terminal.  
 
----
+---  
 
-## Creating a Production Build  
+## Credits
 
-To create a production-ready build:  
+- **Original Project:** [Portofolio_V5](https://github.com/EkiZR/Portofolio_V5).
+- **Modifications Made:** I have made significant modifications to the CSS and changed all the content and information of the site to suit my personal needs.  
+  Some of the changes include:
+  - Rewriting the CSS design.
+  - Customizing colors and layout.
+  - Deployed the project using **Docker**.
+  - Created a **Node.js backend** for managing and serving information. [Link to backend repository](Link to your backend repository).
 
-1. Run the build command:  
 
-   ```bash  
-   npm run build  
-   ```  
+## License
 
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
-
----
-
-## Notes  
-
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
-
----
-
-## Firebase Configuration  
-
-To configure Firebase for this project, follow these steps:  
-
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
-
-2. **Enable Firestore Database:**  
-   - Create a database.  
-
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
-
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
-
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
-
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
-
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
-
+This project is based on a fork from the original repository, which is licensed under [License Name](License URL). My version is also licensed under the same license.
