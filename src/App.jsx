@@ -11,10 +11,16 @@ import ProjectDetails from "./components/ProjectDetail";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
 import Footer from "./components/Footer";
+import AnalyticsTracker from "./components/AnalyticsTracker";
+
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-RFKB04SQL2");
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   return (
     <>
+      <AnalyticsTracker />
       <AnimatePresence mode="wait">
         {showWelcome && (
           <WelcomeScreen onLoadingComplete={() => setShowWelcome(false)} />
